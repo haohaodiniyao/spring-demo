@@ -1,0 +1,5 @@
+###spring###
+1)实现ApplicationContextAware接口可以获取ApplicationContext中的bean
+2)common-pool2对象池应用  
+http://www.coc88.com/h-nd.html?id=152&#_np=2_323
+http://www.jianshu.com/p/b0189e01de35
