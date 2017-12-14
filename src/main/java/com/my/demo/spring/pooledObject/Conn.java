@@ -1,7 +1,9 @@
 package com.my.demo.spring.pooledObject;
-
-import java.util.concurrent.TimeUnit;
-
+/**
+ * 相当于数据库连接或者redis连接资源对象
+ * @author yaokai
+ *
+ */
 public class Conn {
 	private long createTime;
 	public Conn(){
