@@ -18,5 +18,18 @@ public class JunitSpringTest{
 	public void test1(){
 		HelloBean helloBean = (HelloBean)appUtil.getBean("helloBean");
 		System.out.println(helloBean.getMsg("Hello World!"));
+		System.out.println(helloBean.getMsg("Hello World!"));
+		
+		/**
+		CacheManager cacheManager = (CacheManager)appUtil.getBean("cacheManagerFactory");
+		Cache cache = cacheManager.getCache("test-cache");
+		Element element = new Element("hello","world");
+		cache.put(element);
+		
+		Element element2 = cache.get("hello");
+		Object key = element2.getObjectKey();
+		Object value = element2.getObjectValue();
+		System.out.println("key:"+key+",value:"+value);
+		*/
 	}
 }
